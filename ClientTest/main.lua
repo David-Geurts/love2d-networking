@@ -4,7 +4,7 @@ require "enet"
 
 function love.load()
 	host = enet.host_create()
-	server = host:connect("localhost:6789")
+	server = host:connect("192.168.0.70:6789")
 end
 
 function love.update( dt )
