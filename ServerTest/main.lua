@@ -3,7 +3,7 @@
 require "enet"
 
 function love.load()
-	host = enet.host_create("localhost:6789")
+	host = enet.host_create("*:6789")
 end
 
 function love.update( dt )
