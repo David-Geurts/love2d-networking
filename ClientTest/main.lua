@@ -22,10 +22,6 @@ function love.update( dt )
 end
 
 function love.draw()
-<<<<<<< HEAD
+
 	love.graphics.print("Hello World!", 400, 300)
 end
-=======
-	love.graphics.print("Client", 400, 300)
-end
->>>>>>> upstream/master
