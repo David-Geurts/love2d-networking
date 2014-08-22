@@ -1,4 +1,5 @@
 -- Client test
+this is a test 
 
 require "enet"
 
